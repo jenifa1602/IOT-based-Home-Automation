@@ -1,0 +1,70 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+
+.background-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: url('homemate1jpg.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.center-heading {
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: bold;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px; /* Adds space between heading and subheading */
+}
+
+/* Style for the sub-heading text */
+.sub-heading {
+  color: #ffffff;
+  font-size: 1.5em;
+  font-weight: bold; /* Make the text bold */
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fan-control {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align buttons next to the "Fan:" text */
+  margin-top: 20px;
+}
+
+.left-text {
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  margin-right: 20px; /* Adds space between the "Fan:" text and the buttons */
+}
+
+.control-button {
+  background-color: #f0e9e0; /* Light color for buttons */
+  color: rgb(17, 16, 16);
+  font-size: 1em;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin-left: 10px; /* Adds space between buttons */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
